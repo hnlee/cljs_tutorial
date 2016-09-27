@@ -2,4 +2,4 @@
   (:require [doo.runner :refer-macros [doo-all-tests]]
             [runners.tests]))
 
-(doo-all-tests #"(cljs_tutorial)\..*-test")
+(doo-all-tests #"(cljs-tutorial)\..*-test")

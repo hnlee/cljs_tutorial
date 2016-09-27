@@ -1,4 +1,5 @@
-resources/public/cljs/out
+resources/public/cljs/out*
+resources/public/cljs/tests/out*
 pom.xml
 pom.xml.asc
 *jar

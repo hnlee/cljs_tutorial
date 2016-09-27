@@ -59,3 +59,26 @@
   [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
 
 [36m----  Analysis Error  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 1.4 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 1.378 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 1.055 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/runners/doo.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.883 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 1.397 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
