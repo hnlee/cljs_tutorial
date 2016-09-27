@@ -1,0 +1,61 @@
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.135 seconds.[0m
+[36m----  Could not Analyze    ----[0m
+
+  [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
+
+[36m----  Analysis Error  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.068 seconds.[0m
+[36m----  Could not Analyze  test/cljs_tutorial/core_test.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Keyword[0m
+
+  [33m1[0m  [1m(ns cljs-tutorial.core-test[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Keyword[0m
+  [36m2[0m  [36m  (:require [clojure.test :refer :all][0m
+  [36m3[0m  [36m            [cljs-tutorial.core :refer :all]))[0m
+
+[36m----  Analysis Error : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.136 seconds.[0m
+[36m----  Could not Analyze    ----[0m
+
+  [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
+
+[36m----  Analysis Error  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.132 seconds.[0m
+[36m----  Could not Analyze    ----[0m
+
+  [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
+
+[36m----  Analysis Error  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.137 seconds.[0m
+[36m----  Could not Analyze    ----[0m
+
+  [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
+
+[36m----  Analysis Error  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.141 seconds.[0m
+[36m----  Could not Analyze    ----[0m
+
+  [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
+
+[36m----  Analysis Error  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.136 seconds.[0m
+[36m----  Could not Analyze    ----[0m
+
+  [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
+
+[36m----  Analysis Error  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.143 seconds.[0m
+[36m----  Could not Analyze    ----[0m
+
+  [1mNo such namespace: devcards.core, could not locate devcards/core.cljs, devcards/core.cljc, or Closure namespace "devcards.core"[0m
+
+[36m----  Analysis Error  ----[0m
