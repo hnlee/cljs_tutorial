@@ -93,3 +93,976 @@ notifying browser that file changed:  out/runners/doo.js
 [0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
 [32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.26 seconds.[0m
 notifying browser that file changed:  out/runners/doo.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.272 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.259 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:10  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 6[0m  [36m(async done[0m
+  [36m 7[0m  [36m  (js/setTimeout[0m
+  [36m 8[0m  [36m    (fn [][0m
+  [36m 9[0m  [36m      (is (= 1 0))[0m
+  [33m10[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m11[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:10  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 6[0m  [36m(async done[0m
+  [36m 7[0m  [36m  (js/setTimeout[0m
+  [36m 8[0m  [36m    (fn [][0m
+  [36m 9[0m  [36m      (is (= 1 0))[0m
+  [33m10[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m11[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.36 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:10  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 6[0m  [36m(async done[0m
+  [36m 7[0m  [36m  (js/setTimeout[0m
+  [36m 8[0m  [36m    (fn [][0m
+  [36m 9[0m  [36m      (is (= 1 0))[0m
+  [33m10[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m11[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:10  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 6[0m  [36m(async done[0m
+  [36m 7[0m  [36m  (js/setTimeout[0m
+  [36m 8[0m  [36m    (fn [][0m
+  [36m 9[0m  [36m      (is (= 1 0))[0m
+  [33m10[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m11[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.357 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.346 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.061 seconds.[0m
+[36m----  Could not Analyze  test/cljs_tutorial/core_test.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Keyword[0m
+
+  [33m1[0m  [1m(ns cljs-tutorial.core-test[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Keyword[0m
+  [36m2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m3[0m  [36m            [clojure.core.async :refer :all][0m
+  [36m4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+
+[36m----  Analysis Error : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.355 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:10  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 6[0m  [36m(async done[0m
+  [36m 7[0m  [36m  (js/setTimeout[0m
+  [36m 8[0m  [36m    (fn [][0m
+  [36m 9[0m  [36m      (is (= 1 0))[0m
+  [33m10[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m11[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:6  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m 3[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(deftest a-test[0m
+  [33m 6[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 7[0m  [36m    (js/setTimeout[0m
+  [36m 8[0m  [36m      (fn [][0m
+  [36m 9[0m  [36m        (is (= 1 0))[0m
+  [36m10[0m  [36m        (done))[0m
+  [36m11[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:10  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 6[0m  [36m(async done[0m
+  [36m 7[0m  [36m  (js/setTimeout[0m
+  [36m 8[0m  [36m    (fn [][0m
+  [36m 9[0m  [36m      (is (= 1 0))[0m
+  [33m10[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m11[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.369 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs.core.async/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs.core.async/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:16  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async/async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs.core.async/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs.core.async/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:16  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async/async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.397 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.061 seconds.[0m
+[36m----  Could not Analyze  test/cljs_tutorial/core_test.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Keyword[0m
+
+  [33m1[0m  [1m(ns cljs-tutorial.core-test[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Keyword[0m
+  [36m2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m3[0m  [36m            [clojure.core.async :as async :refer :all][0m
+  [36m4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+
+[36m----  Analysis Error : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+Figwheel: Can't open  ("test/cljs_tutorial/core_test.cljs" 1 1) No :open-file-command supplied in the config.
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.067 seconds.[0m
+[36m----  Could not Analyze  test/cljs_tutorial/core_test.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Keyword[0m
+
+  [33m1[0m  [1m(ns cljs-tutorial.core-test[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Keyword[0m
+  [36m2[0m  [36m  (:require [cljs.test :refer-macros [is testing]][0m
+  [36m3[0m  [36m            [cljs.core.async :as async :refer :all][0m
+  [36m4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+
+[36m----  Analysis Error : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.349 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs.core.async/async[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs.core.async/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:16  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async/async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs.core.async/async[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs.core.async/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:16  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [cljs.core.async :as async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async/async done[0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async/async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.335 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.153 seconds.[0m
+[36m----  Could not Analyze  test/cljs_tutorial/core_test.cljs  ----[0m
+
+  [1mNo such namespace: core.async, could not locate core/async.cljs, core/async.cljc, or Closure namespace "core.async" [0m
+
+[36m----  Analysis Error : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/async[0m
+
+  [36m 3[0m  [36m            [clojure.core.async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var cljs-tutorial.core-test/async[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:7  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 3[0m  [36m            [clojure.core.async][0m
+  [36m 4[0m  [36m            [devcards.core :refer-macros [deftest]]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(deftest a-test[0m
+  [33m 7[0m  [1m  (async done[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m 8[0m  [36m    (js/setTimeout[0m
+  [36m 9[0m  [36m      (fn [][0m
+  [36m10[0m  [36m        (is (= 1 0))[0m
+  [36m11[0m  [36m        (done))[0m
+  [36m12[0m  [36m      100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[36m----  Compiler Warning on   test/cljs_tutorial/core_test.cljs   line:11  column:10  ----[0m
+
+  [1mUse of undeclared Var cljs-tutorial.core-test/done[0m
+
+  [36m 7[0m  [36m(async done[0m
+  [36m 8[0m  [36m  (js/setTimeout[0m
+  [36m 9[0m  [36m    (fn [][0m
+  [36m10[0m  [36m      (is (= 1 0))[0m
+  [33m11[0m  [1m      (done))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var cljs-tutorial.core-test/done[0m
+  [36m12[0m  [36m    100)))[0m
+
+[36m----  Compiler Warning : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.35 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.313 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/tests/out/cljs_deps.js
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.258 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.279 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.181 seconds.[0m
+[36m----  Could not Analyze  test/cljs_tutorial/core_test.cljs   line:6  column:3  ----[0m
+
+  [1mUnsupported binding form: (js/setTimeout (fn [] (is (= 1 0)) (done)) 100)[0m
+
+  [36m5[0m  [36m(deftest a-test[0m
+  [33m6[0m  [1m  (async [0m
+  [0m [0m  [33m  ^--- Unsupported binding form: (js/setTimeout (fn [] (is (= 1 0)) (done)) 100)[0m
+  [36m7[0m  [36m    (js/setTimeout[0m
+  [36m8[0m  [36m      (fn [][0m
+  [36m9[0m  [36m        (is (= 1 0))[0m
+
+[36m----  Analysis Error : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[31mFailed to compile "resources/public/cljs/tests/all-tests.js" in 0.193 seconds.[0m
+[36m----  Could not Read  test/cljs_tutorial/core_test.cljs   line:11  column:13  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m 9[0m  [36m  (is (= 1 0))[0m
+  [36m10[0m  [36m  ))[0m
+  [33m11[0m  [1m100)))[0m
+  [0m  [0m  [33m      ^--- Unmatched delimiter )[0m
+
+[36m----  Reader Error : Please see test/cljs_tutorial/core_test.cljs  ----[0m
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.26 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js
+[0mCompiling "resources/public/cljs/tests/all-tests.js" from ["src" "test"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/tests/all-tests.js" in 0.274 seconds.[0m
+notifying browser that file changed:  out/cljs_tutorial/core_test.js

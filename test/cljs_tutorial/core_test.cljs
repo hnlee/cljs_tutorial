@@ -1,9 +1,10 @@
 (ns cljs-tutorial.core-test
-  (:require [cljs.test :refer-macros [is testing]]
+  (:require [cljs.test :refer-macros [is testing async]]
             [devcards.core :refer-macros [deftest]]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1)))
-  (testing "I pass"
-    (is (= 1 1))))
+  (async done 
+    (js/setTimeout
+      (fn []
+        (throw (js/Error. "Oops!")))
+      100)))

@@ -1,1 +1,2 @@
-(ns runners.tests)
+(ns runners.tests
+  (:require [cljs-tutorial.core-test]))
